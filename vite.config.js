@@ -26,11 +26,11 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: 'public/build', // Ensure this matches the directory where Laravel expects the assets
+        outDir: 'public/build',
         rollupOptions: {
-            input: '/resources/js/app.js', // Adjust this to match your entry file
+            input: '/resources/js/app.js', 
             output: {
-                entryFileNames: 'assets/url-shortner.js', // Fixed file name for the main output file
+                entryFileNames: 'assets/url-shortner.js', 
             },
         },
     },
