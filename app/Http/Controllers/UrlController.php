@@ -18,7 +18,7 @@ class UrlController extends Controller
         $existingUrl = Url::where('original_url', $request->url)->first();
 
         if ($existingUrl) {
-            return response()->json(['short_url' => $existingUrl->short_url]);
+            return response()->json(['short_url' => $existingUrl->short_url, 'message' => 'exists']);
         }
 
         // Generate a unique short URL
@@ -30,7 +30,7 @@ class UrlController extends Controller
             'short_url' => $shortUrl,
         ]);
 
-        return response()->json(['short_url' => $url->short_url]);
+        return response()->json(['short_url' => $url->short_url, 'message' => 'created']);
     }
 
     public function redirect($shortUrl)

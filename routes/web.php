@@ -3,7 +3,7 @@
 use App\Http\Controllers\UrlController;
 
 Route::get('/', function () {
-    return view('test');
+    return view('url-shortener');
 });
 
 Route::post('/create', [UrlController::class, 'create']);
