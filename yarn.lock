@@ -418,7 +418,7 @@ vite-plugin-full-reload@^1.1.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vue@^3.2.25, vue@^3.2.37, vue@3.4.21:
+vue@^3.0.0-beta.13, vue@^3.2.25, vue@^3.2.37, vue@3.4.21:
   version "3.4.21"
   resolved "https://registry.npmjs.org/vue/-/vue-3.4.21.tgz"
   integrity sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==
@@ -428,3 +428,8 @@ vue@^3.2.25, vue@^3.2.37, vue@3.4.21:
     "@vue/runtime-dom" "3.4.21"
     "@vue/server-renderer" "3.4.21"
     "@vue/shared" "3.4.21"
+
+vue3-toast@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/vue3-toast/-/vue3-toast-0.0.1.tgz"
+  integrity sha512-/B84E1HnnlsGZA90RtWn8zB7yiBXdbcui8dpeHmI1BtavKpeh/67vzycZuZSZz+Q5FYZFbAwBDSNUCZ9qudjpw==
